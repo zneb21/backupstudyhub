@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Any other custom CSS comes after these lines */
+
+/*
+  Optional: If you want to retain some of the base styles from your previous style.css,
+  you can place them *after* the @tailwind directives.
+  However, for a pure Tailwind approach, you'd apply these via utility classes in JSX.
+
+  For the design I provided, the Tailwind classes in App.tsx handle most of this.
+  The font-family for 'Inter' is already set via Tailwind in App.tsx.
+*/
+
+/* Example of adding global custom styles if needed, after Tailwind */
+/*
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+*/
+
+/* If you need to enforce a global font that's NOT 'Inter',
+   you'd define it here or adjust tailwind.config.js.
+   Otherwise, 'font-inter' in App.tsx handles it. */
+/*
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*/
